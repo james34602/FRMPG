@@ -1,3 +1,4 @@
+% [data,fs] = audioread('TestFileEqResponse.wav'); % Load impulse response
 [data,fs] = audioread('Storm Unity.wav'); % Load impulse response
 % N-octave smoothing, extract interest points from vast amount of impulse response
 Noct = 4;
