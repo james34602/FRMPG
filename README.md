@@ -12,4 +12,4 @@ demo2.m show you how to craft frequency response from handwritten numeric vector
 
 # What's the point?
 
-Headphone frequnecy response equalization should not be generated using simple waveform editing software, or worse, record the "impulse response" from loopback driver, which is quite awful. And possibly create unintentional signal delay, resampling artifacts.
+Headphone frequency response equalization should not be generated using simple waveform editing software, or worse, record the "impulse response" from loopback driver, which is quite awful. And possibly create unintentional signal delay, resampling artifacts.
