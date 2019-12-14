@@ -8,5 +8,6 @@ freq=[0 freq']';
 freq(freq>1)=1;
 gV=[gV(1) gV']';
 % Minimum phase frequency sampling FIR filter design
-bhi = minphasefir2(length(data),freq,db2mag(gV));
-freqz(bhi);
+y = minphasefir2(length(data),freq,db2mag(gV));
+audiowrite('Storm Unity_mps.wav',y,fs,'BitsPerSample',32);
+freqz(y);
